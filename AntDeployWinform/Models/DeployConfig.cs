@@ -10,7 +10,7 @@ namespace AntDeployWinform.Models
         public bool EnableEnvGroup { get; set; }
         public bool SaveLogs { get; set; }
         public bool MultiInstance { get; set; }
-        public List<string> ProjectPathList  { get; set; }
+        public List<string> ProjectPathList { get; set; }
     }
 
     /// <summary>
@@ -70,7 +70,7 @@ namespace AntDeployWinform.Models
         }
     }
 
-    public delegate void EnvChange(Env env, bool isServerChange,bool isRemove);
+    public delegate void EnvChange(Env env, bool isServerChange, bool isRemove);
     public class DeployConfig
     {
         public event EnvChange EnvChangeEvent;
@@ -79,19 +79,19 @@ namespace AntDeployWinform.Models
         public void AddEnv(Env env)
         {
             this.Env.Add(env);
-            EnvChangeEvent?.Invoke(env, false,false);
+            EnvChangeEvent?.Invoke(env, false, false);
         }
 
         public void RemoveEnv(int index)
         {
             var env = this.Env[index];
             this.Env.RemoveAt(index);
-            EnvChangeEvent?.Invoke(env, false,true);
+            EnvChangeEvent?.Invoke(env, false, true);
         }
 
         public void EnvServerChange(Env env)
         {
-            EnvChangeEvent?.Invoke(env, true,false);
+            EnvChangeEvent?.Invoke(env, true, false);
         }
 
 
@@ -104,7 +104,16 @@ namespace AntDeployWinform.Models
         public WindowsServiveConfig WindowsServiveConfig { get; set; } = new WindowsServiveConfig();
         public LinuxServiveConfig LinuxServiveConfig { get; set; } = new LinuxServiveConfig();
         public DockerConfig DockerConfig { get; set; } = new DockerConfig();
+        public DockerRegisterConfig DockerRegisterConfig { get; set; } = new DockerRegisterConfig();
+    }
 
+    public class DockerRegisterConfig
+    {
+        public string RepositoryUrl { get; set; }
+        public string RepositoryUserName { get; set; }
+        public string RepositoryUserPwd { get; set; }
+        public string RepositoryNameSpace { get; set; }
+        public string RepositoryImageName { get; set; }
     }
 
     public class IIsConfig

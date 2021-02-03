@@ -117,304 +117,1945 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="checkBox_iis_use_offlinehtm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>462, 96</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkBox_iis_use_offlinehtm.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="checkBox_iis_use_offlinehtm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 19</value>
+  </data>
   <data name="checkBox_iis_use_offlinehtm.Text" xml:space="preserve">
     <value>使用app_offline.htm</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="checkBox_iis_restart_site.Location" type="System.Drawing.Point, System.Drawing">
+    <value>462, 69</value>
+  </data>
+  <data name="checkBox_iis_restart_site.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="checkBox_iis_restart_site.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 16</value>
+    <value>104, 19</value>
   </data>
   <data name="checkBox_iis_restart_site.Text" xml:space="preserve">
     <value>不关闭站点</value>
   </data>
   <data name="btn_iis_stop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>507, 108</value>
+    <value>634, 135</value>
+  </data>
+  <data name="btn_iis_stop.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_iis_stop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 54</value>
   </data>
   <data name="btn_iis_retry.Location" type="System.Drawing.Point, System.Drawing">
-    <value>396, 109</value>
+    <value>495, 136</value>
+  </data>
+  <data name="btn_iis_retry.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_iis_retry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 54</value>
   </data>
   <data name="btn_iis_retry.Text" xml:space="preserve">
     <value>重试</value>
   </data>
+  <data name="checkBox_select_deploy_iis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>462, 42</value>
+  </data>
+  <data name="checkBox_select_deploy_iis.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="checkBox_select_deploy_iis.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 16</value>
+    <value>149, 19</value>
   </data>
   <data name="checkBox_select_deploy_iis.Text" xml:space="preserve">
     <value>选择指定文件发布</value>
   </data>
+  <data name="b_iis_rollback.Location" type="System.Drawing.Point, System.Drawing">
+    <value>692, 4</value>
+  </data>
+  <data name="b_iis_rollback.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="b_iis_rollback.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 36</value>
+  </data>
+  <data name="checkBox_Increment_iis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>462, 16</value>
+  </data>
+  <data name="checkBox_Increment_iis.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="checkBox_Increment_iis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 19</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 91</value>
+  </data>
+  <data name="label25.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 15</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 140</value>
+  </data>
+  <data name="label9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 15</value>
+  </data>
   <data name="b_iis_deploy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>509, 107</value>
+    <value>636, 134</value>
+  </data>
+  <data name="b_iis_deploy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="b_iis_deploy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 54</value>
+  </data>
+  <data name="combo_iis_env.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 62</value>
+  </data>
+  <data name="combo_iis_env.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="combo_iis_env.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 23</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 66</value>
+  </data>
+  <data name="label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 15</value>
+  </data>
+  <data name="txt_iis_web_site_name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 110</value>
+  </data>
+  <data name="txt_iis_web_site_name.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_iis_web_site_name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 25</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 119</value>
+  </data>
+  <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 15</value>
+  </data>
+  <data name="combo_iis_sdk_type.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 15</value>
+  </data>
+  <data name="combo_iis_sdk_type.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="combo_iis_sdk_type.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 23</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 25</value>
+  </data>
+  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 15</value>
+  </data>
+  <data name="label_iis_demo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 4</value>
+  </data>
+  <data name="label_iis_demo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label_iis_demo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 15</value>
+  </data>
+  <data name="progress_iis_tip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 80</value>
+  </data>
+  <data name="progress_iis_tip.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="progress_iis_tip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>431, 36</value>
+  </data>
+  <data name="tabPage_progress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabPage_progress.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabPage_progress.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabPage_progress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>764, 369</value>
+  </data>
+  <data name="rich_iis_log.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="rich_iis_log.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="rich_iis_log.Size" type="System.Drawing.Size, System.Drawing">
+    <value>754, 361</value>
+  </data>
+  <data name="tabPage_iis_log.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabPage_iis_log.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabPage_iis_log.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabPage_iis_log.Size" type="System.Drawing.Size, System.Drawing">
+    <value>762, 369</value>
+  </data>
+  <data name="tab_iis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 171</value>
+  </data>
+  <data name="tab_iis.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tab_iis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>772, 398</value>
+  </data>
+  <data name="page_web_iis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="page_web_iis.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="page_web_iis.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="page_web_iis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>780, 573</value>
+  </data>
+  <data name="b_docker_deploy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>640, 179</value>
+  </data>
+  <data name="b_docker_deploy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="b_docker_deploy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 50</value>
+  </data>
+  <data name="btn_docker_retry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>498, 179</value>
+  </data>
+  <data name="btn_docker_retry.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_docker_retry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 50</value>
   </data>
   <data name="btn_docker_retry.Text" xml:space="preserve">
     <value>重试</value>
   </data>
   <data name="btn_docker_stop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>512, 143</value>
+    <value>640, 179</value>
+  </data>
+  <data name="btn_docker_stop.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_docker_stop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 50</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="checkBox_select_deploy_docker.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="checkBox_select_deploy_docker.Location" type="System.Drawing.Point, System.Drawing">
-    <value>262, 149</value>
+    <value>328, 186</value>
+  </data>
+  <data name="checkBox_select_deploy_docker.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="checkBox_select_deploy_docker.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 16</value>
+    <value>149, 19</value>
   </data>
   <data name="checkBox_select_deploy_docker.Text" xml:space="preserve">
     <value>选择指定文件发布</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>734, 145</value>
+  </data>
+  <data name="label13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 15</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>440, 121</value>
+  </data>
+  <data name="label12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 54</value>
+  </data>
+  <data name="t_docker_delete_days.Location" type="System.Drawing.Point, System.Drawing">
+    <value>680, 141</value>
+  </data>
+  <data name="t_docker_delete_days.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="t_docker_delete_days.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 25</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 160</value>
+  </data>
+  <data name="label24.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>353, 15</value>
+  </data>
+  <data name="label53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 45</value>
+  </data>
+  <data name="label53.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 15</value>
   </data>
   <data name="txt_docker_volume.Font" type="System.Drawing.Font, System.Drawing">
     <value>Comic Sans MS, 10pt</value>
   </data>
   <data name="txt_docker_volume.Location" type="System.Drawing.Point, System.Drawing">
-    <value>157, 9</value>
+    <value>196, 11</value>
+  </data>
+  <data name="txt_docker_volume.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="txt_docker_volume.Size" type="System.Drawing.Size, System.Drawing">
-    <value>396, 26</value>
+    <value>495, 32</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 45</value>
+  </data>
+  <data name="label28.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 15</value>
+  </data>
+  <data name="label46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 96</value>
+  </data>
+  <data name="label46.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label46.Size" type="System.Drawing.Size, System.Drawing">
-    <value>455, 12</value>
+    <value>602, 15</value>
   </data>
   <data name="label46.Text" xml:space="preserve">
     <value>Docker run 自定义参数: --network xxx -e XXX=YYY --name xxx --link other:tag</value>
   </data>
+  <data name="txt_docker_other.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 66</value>
+  </data>
+  <data name="txt_docker_other.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_docker_other.Size" type="System.Drawing.Size, System.Drawing">
+    <value>723, 25</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 21</value>
+  </data>
+  <data name="label21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 15</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 70</value>
+  </data>
+  <data name="label23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 15</value>
+  </data>
+  <data name="txt_docker_port.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 18</value>
+  </data>
+  <data name="txt_docker_port.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_docker_port.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 25</value>
+  </data>
   <data name="label45.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 59</value>
+    <value>0, 74</value>
+  </data>
+  <data name="label45.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 15</value>
+  </data>
+  <data name="b_docker_rollback.Location" type="System.Drawing.Point, System.Drawing">
+    <value>699, 12</value>
+  </data>
+  <data name="b_docker_rollback.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="b_docker_rollback.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 38</value>
+  </data>
+  <data name="txt_docker_envname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 66</value>
+  </data>
+  <data name="txt_docker_envname.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_docker_envname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 25</value>
   </data>
   <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 17</value>
+    <value>138, 21</value>
+  </data>
+  <data name="label27.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 15</value>
+  </data>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 4</value>
+  </data>
+  <data name="groupBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupBox5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>778, 115</value>
+  </data>
+  <data name="combo_docker_env.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 130</value>
+  </data>
+  <data name="combo_docker_env.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="combo_docker_env.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 134</value>
+  </data>
+  <data name="label22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 15</value>
+  </data>
+  <data name="label_docker_demo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 186</value>
+  </data>
+  <data name="label_docker_demo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label_docker_demo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 15</value>
+  </data>
+  <data name="progress_docker_tip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 68</value>
+  </data>
+  <data name="progress_docker_tip.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="progress_docker_tip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 38</value>
+  </data>
+  <data name="tabPage_docker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabPage_docker.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabPage_docker.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabPage_docker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>772, 336</value>
+  </data>
+  <data name="rich_docker_log.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="rich_docker_log.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="rich_docker_log.Size" type="System.Drawing.Size, System.Drawing">
+    <value>762, 328</value>
+  </data>
+  <data name="tabPage_docker_log.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabPage_docker_log.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabPage_docker_log.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabPage_docker_log.Size" type="System.Drawing.Size, System.Drawing">
+    <value>770, 336</value>
   </data>
   <data name="label54.Location" type="System.Drawing.Point, System.Drawing">
-    <value>217, 196</value>
+    <value>271, 245</value>
+  </data>
+  <data name="label54.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label54.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 36</value>
+    <value>221, 45</value>
   </data>
   <data name="label54.Text" xml:space="preserve">
     <value>镜像名称格式: imagename:tag [不加tag用默认的日期版本号]</value>
   </data>
+  <data name="checkBoxdocker_rep_uploadOnly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 61</value>
+  </data>
+  <data name="checkBoxdocker_rep_uploadOnly.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="checkBoxdocker_rep_uploadOnly.Size" type="System.Drawing.Size, System.Drawing">
-    <value>234, 24</value>
+    <value>292, 30</value>
   </data>
   <data name="checkBoxdocker_rep_uploadOnly.Text" xml:space="preserve">
     <value>在宿主机上只打包镜像不运行容器</value>
   </data>
+  <data name="checkBoxdocker_rep_enable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 61</value>
+  </data>
+  <data name="checkBoxdocker_rep_enable.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="checkBoxdocker_rep_enable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>279, 30</value>
+  </data>
   <data name="checkBoxdocker_rep_enable.Text" xml:space="preserve">
     <value>开启镜像上传</value>
   </data>
+  <data name="txt_docker_rep_image.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 215</value>
+  </data>
+  <data name="txt_docker_rep_image.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_docker_rep_image.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 25</value>
+  </data>
+  <data name="label44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 219</value>
+  </data>
+  <data name="label44.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
   <data name="label44.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 12</value>
+    <value>83, 15</value>
   </data>
   <data name="label44.Text" xml:space="preserve">
     <value> 镜像名称:</value>
   </data>
+  <data name="label43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 182</value>
+  </data>
+  <data name="label43.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
   <data name="label43.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 12</value>
+    <value>107, 15</value>
   </data>
   <data name="label43.Text" xml:space="preserve">
     <value>    仓库名称:</value>
   </data>
+  <data name="txt_docker_rep_namespace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 176</value>
+  </data>
+  <data name="txt_docker_rep_namespace.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_docker_rep_namespace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 25</value>
+  </data>
+  <data name="label40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 106</value>
+  </data>
+  <data name="label40.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
   <data name="label40.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 12</value>
+    <value>123, 15</value>
   </data>
   <data name="label40.Text" xml:space="preserve">
     <value>      镜像地址:</value>
   </data>
+  <data name="txt_docker_rep_domain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 99</value>
+  </data>
+  <data name="txt_docker_rep_domain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_docker_rep_domain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>335, 25</value>
+  </data>
+  <data name="txt_docker_rep_pwd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>468, 140</value>
+  </data>
+  <data name="txt_docker_rep_pwd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_docker_rep_pwd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 25</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 146</value>
+  </data>
+  <data name="label31.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
   <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 12</value>
+    <value>114, 15</value>
   </data>
   <data name="label31.Text" xml:space="preserve">
     <value>   登录用户名:</value>
   </data>
+  <data name="txt_docker_rep_name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 140</value>
+  </data>
+  <data name="txt_docker_rep_name.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_docker_rep_name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 25</value>
+  </data>
+  <data name="label34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>429, 146</value>
+  </data>
+  <data name="label34.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
   <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 12</value>
+    <value>45, 15</value>
   </data>
   <data name="label34.Text" xml:space="preserve">
     <value>密码:</value>
   </data>
+  <data name="tabPage_docker_repo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabPage_docker_repo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabPage_docker_repo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>772, 336</value>
+  </data>
   <data name="tabPage_docker_repo.Text" xml:space="preserve">
     <value>配置镜像上传</value>
+  </data>
+  <data name="tabControl_docker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 208</value>
+  </data>
+  <data name="tabControl_docker.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabControl_docker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>780, 365</value>
   </data>
   <data name="checkBox_Increment_docker.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="checkBox_Increment_docker.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 149</value>
+    <value>200, 186</value>
+  </data>
+  <data name="checkBox_Increment_docker.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="checkBox_Increment_docker.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 16</value>
+    <value>89, 19</value>
   </data>
   <data name="checkBox_Increment_docker.Text" xml:space="preserve">
     <value>增量发布</value>
   </data>
+  <data name="checkBox_sudo_docker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 185</value>
+  </data>
+  <data name="checkBox_sudo_docker.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="checkBox_sudo_docker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 22</value>
+  </data>
+  <data name="page_docker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="page_docker.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="page_docker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>780, 573</value>
+  </data>
   <data name="btn_windows_serivce_stop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>511, 101</value>
+    <value>639, 126</value>
+  </data>
+  <data name="btn_windows_serivce_stop.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_windows_serivce_stop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 54</value>
   </data>
   <data name="btn_windows_service_retry.Location" type="System.Drawing.Point, System.Drawing">
-    <value>399, 101</value>
+    <value>499, 126</value>
+  </data>
+  <data name="btn_windows_service_retry.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_windows_service_retry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 54</value>
   </data>
   <data name="btn_windows_service_retry.Text" xml:space="preserve">
     <value>重试</value>
   </data>
+  <data name="b_windowservice_deploy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>640, 125</value>
+  </data>
+  <data name="b_windowservice_deploy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="b_windowservice_deploy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 54</value>
+  </data>
+  <data name="checkBox_select_deploy_service.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 70</value>
+  </data>
+  <data name="checkBox_select_deploy_service.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="checkBox_select_deploy_service.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 16</value>
+    <value>149, 19</value>
   </data>
   <data name="checkBox_select_deploy_service.Text" xml:space="preserve">
     <value>选择指定文件发布</value>
   </data>
+  <data name="checkBox_Increment_window_service.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 36</value>
+  </data>
+  <data name="checkBox_Increment_window_service.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="checkBox_Increment_window_service.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 19</value>
+  </data>
+  <data name="label_windows_serivce_demo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 6</value>
+  </data>
+  <data name="label_windows_serivce_demo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label_windows_serivce_demo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 15</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 100</value>
+  </data>
+  <data name="label26.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 15</value>
+  </data>
+  <data name="txt_windowservice_name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 125</value>
+  </data>
+  <data name="txt_windowservice_name.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_windowservice_name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 25</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 129</value>
+  </data>
+  <data name="label14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 15</value>
+  </data>
+  <data name="combo_windowservice_sdk_type.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 31</value>
+  </data>
+  <data name="combo_windowservice_sdk_type.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="combo_windowservice_sdk_type.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 23</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 35</value>
+  </data>
+  <data name="label11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 15</value>
+  </data>
+  <data name="combo_windowservice_env.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 71</value>
+  </data>
+  <data name="combo_windowservice_env.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="combo_windowservice_env.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 23</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 75</value>
+  </data>
+  <data name="label10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 15</value>
+  </data>
+  <data name="progress_window_service_tip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 74</value>
+  </data>
+  <data name="progress_window_service_tip.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="progress_window_service_tip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>431, 38</value>
+  </data>
+  <data name="tabPage_windows_service.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabPage_windows_service.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabPage_windows_service.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabPage_windows_service.Size" type="System.Drawing.Size, System.Drawing">
+    <value>772, 382</value>
+  </data>
+  <data name="rich_windowservice_log.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="rich_windowservice_log.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="rich_windowservice_log.Size" type="System.Drawing.Size, System.Drawing">
+    <value>762, 374</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabPage2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>770, 382</value>
+  </data>
+  <data name="tabControl_window_service.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 162</value>
+  </data>
+  <data name="tabControl_window_service.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabControl_window_service.Size" type="System.Drawing.Size, System.Drawing">
+    <value>780, 411</value>
+  </data>
+  <data name="b_windows_service_rollback.Location" type="System.Drawing.Point, System.Drawing">
+    <value>692, 6</value>
+  </data>
+  <data name="b_windows_service_rollback.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="b_windows_service_rollback.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 38</value>
+  </data>
+  <data name="page_window_service.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="page_window_service.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="page_window_service.Size" type="System.Drawing.Size, System.Drawing">
+    <value>780, 573</value>
+  </data>
+  <data name="btn_linux_serivce_stop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>631, 116</value>
+  </data>
+  <data name="btn_linux_serivce_stop.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_linux_serivce_stop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 54</value>
+  </data>
+  <data name="b_linuxservice_deploy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>631, 116</value>
+  </data>
+  <data name="b_linuxservice_deploy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="b_linuxservice_deploy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 54</value>
+  </data>
   <data name="b_linuxservice_deploy.Text" xml:space="preserve">
     <value>发布</value>
+  </data>
+  <data name="btn_linux_service_retry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 116</value>
+  </data>
+  <data name="btn_linux_service_retry.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_linux_service_retry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 54</value>
   </data>
   <data name="btn_linux_service_retry.Text" xml:space="preserve">
     <value>重试</value>
   </data>
+  <data name="checkBox_select_type_linuxservice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>354, 89</value>
+  </data>
+  <data name="checkBox_select_type_linuxservice.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="checkBox_select_type_linuxservice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 19</value>
+  </data>
+  <data name="label51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 146</value>
+  </data>
+  <data name="label51.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>343, 15</value>
+  </data>
+  <data name="txt_linux_service_env.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 116</value>
+  </data>
+  <data name="txt_linux_service_env.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_linux_service_env.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 25</value>
+  </data>
   <data name="label49.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 96</value>
+    <value>32, 120</value>
+  </data>
+  <data name="label49.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label49.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 12</value>
+    <value>75, 15</value>
   </data>
   <data name="label49.Text" xml:space="preserve">
     <value>环境变量:</value>
   </data>
+  <data name="progress_linux_service_tip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 74</value>
+  </data>
+  <data name="progress_linux_service_tip.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="progress_linux_service_tip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>431, 38</value>
+  </data>
+  <data name="tabPage_linux_service.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabPage_linux_service.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabPage_linux_service.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabPage_linux_service.Size" type="System.Drawing.Size, System.Drawing">
+    <value>772, 382</value>
+  </data>
   <data name="tabPage_linux_service.Text" xml:space="preserve">
     <value>进度展示</value>
+  </data>
+  <data name="rich_linuxservice_log.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="rich_linuxservice_log.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="rich_linuxservice_log.Size" type="System.Drawing.Size, System.Drawing">
+    <value>762, 374</value>
+  </data>
+  <data name="tabPage3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabPage3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabPage3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>770, 382</value>
   </data>
   <data name="tabPage3.Text" xml:space="preserve">
     <value>发布日志</value>
   </data>
+  <data name="tabControl_linux_service.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 162</value>
+  </data>
+  <data name="tabControl_linux_service.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabControl_linux_service.Size" type="System.Drawing.Size, System.Drawing">
+    <value>780, 411</value>
+  </data>
+  <data name="checkBox_select_deploy_linuxservice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>355, 55</value>
+  </data>
+  <data name="checkBox_select_deploy_linuxservice.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="checkBox_select_deploy_linuxservice.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 16</value>
+    <value>149, 19</value>
   </data>
   <data name="checkBox_select_deploy_linuxservice.Text" xml:space="preserve">
     <value>选择指定文件发布</value>
   </data>
+  <data name="checkBox_Increment_linux_service.Location" type="System.Drawing.Point, System.Drawing">
+    <value>355, 21</value>
+  </data>
+  <data name="checkBox_Increment_linux_service.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="checkBox_Increment_linux_service.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 16</value>
+    <value>89, 19</value>
   </data>
   <data name="checkBox_Increment_linux_service.Text" xml:space="preserve">
     <value>增量发布</value>
   </data>
+  <data name="label47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 58</value>
+  </data>
+  <data name="label47.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
   <data name="label47.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 12</value>
+    <value>190, 15</value>
   </data>
   <data name="label47.Text" xml:space="preserve">
     <value>注意:只能发布linux服务器</value>
   </data>
+  <data name="txt_linuxservice_name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 82</value>
+  </data>
+  <data name="txt_linuxservice_name.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_linuxservice_name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 25</value>
+  </data>
+  <data name="label48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 86</value>
+  </data>
+  <data name="label48.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
   <data name="label48.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 12</value>
+    <value>99, 15</value>
   </data>
   <data name="label48.Text" xml:space="preserve">
     <value>   服务名称:</value>
   </data>
+  <data name="combo_linux_env.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 29</value>
+  </data>
+  <data name="combo_linux_env.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="combo_linux_env.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 23</value>
+  </data>
+  <data name="label50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 32</value>
+  </data>
+  <data name="label50.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 15</value>
+  </data>
   <data name="label50.Text" xml:space="preserve">
     <value>环境名称:</value>
+  </data>
+  <data name="b_linux_service_rollback.Location" type="System.Drawing.Point, System.Drawing">
+    <value>690, 4</value>
+  </data>
+  <data name="b_linux_service_rollback.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="b_linux_service_rollback.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 38</value>
   </data>
   <data name="b_linux_service_rollback.Text" xml:space="preserve">
     <value>回滚</value>
   </data>
+  <data name="page_linux_service.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="page_linux_service.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="page_linux_service.Size" type="System.Drawing.Size, System.Drawing">
+    <value>780, 573</value>
+  </data>
   <data name="page_linux_service.Text" xml:space="preserve">
     <value>Linux服务发布</value>
+  </data>
+  <data name="btn_rich_config_log_close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>692, 4</value>
+  </data>
+  <data name="btn_rich_config_log_close.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_rich_config_log_close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 31</value>
+  </data>
+  <data name="rich_config_log.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="rich_config_log.Size" type="System.Drawing.Size, System.Drawing">
+    <value>745, 236</value>
+  </data>
+  <data name="panel_rich_config_log.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 336</value>
+  </data>
+  <data name="panel_rich_config_log.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="panel_rich_config_log.Size" type="System.Drawing.Size, System.Drawing">
+    <value>746, 224</value>
+  </data>
+  <data name="label_how_to_set.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 4</value>
+  </data>
+  <data name="label_how_to_set.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label_how_to_set.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="b_copy_backup_ignore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 140</value>
+  </data>
+  <data name="b_copy_backup_ignore.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="b_copy_backup_ignore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 28</value>
+  </data>
+  <data name="b_backUp_ignore_remove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 188</value>
+  </data>
+  <data name="b_backUp_ignore_remove.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="b_backUp_ignore_remove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 29</value>
+  </data>
+  <data name="b_backUp_ignore_add.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 102</value>
+  </data>
+  <data name="b_backUp_ignore_add.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="b_backUp_ignore_add.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 30</value>
+  </data>
+  <data name="txt_backUp_ignore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 54</value>
+  </data>
+  <data name="txt_backUp_ignore.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_backUp_ignore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 25</value>
+  </data>
+  <data name="list_backUp_ignore.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="list_backUp_ignore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 16</value>
+  </data>
+  <data name="list_backUp_ignore.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="list_backUp_ignore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 199</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 336</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>374, 224</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Token服务器备份排除规则</value>
   </data>
+  <data name="label_check_update.Location" type="System.Drawing.Point, System.Drawing">
+    <value>679, 4</value>
+  </data>
+  <data name="label_check_update.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label_check_update.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="b_copy_pack_ignore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 140</value>
+  </data>
+  <data name="b_copy_pack_ignore.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="b_copy_pack_ignore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 26</value>
+  </data>
+  <data name="b_env_ignore_remove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 188</value>
+  </data>
+  <data name="b_env_ignore_remove.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="b_env_ignore_remove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 29</value>
+  </data>
+  <data name="b_env_ignore_add.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 88</value>
+  </data>
+  <data name="b_env_ignore_add.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="b_env_ignore_add.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 30</value>
+  </data>
+  <data name="txt_env_ignore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 54</value>
+  </data>
+  <data name="txt_env_ignore.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_env_ignore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 25</value>
+  </data>
+  <data name="list_env_ignore.ItemHeight" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="list_env_ignore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 16</value>
+  </data>
+  <data name="list_env_ignore.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="list_env_ignore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 199</value>
+  </data>
+  <data name="groupBoxIgnore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 336</value>
+  </data>
+  <data name="groupBoxIgnore.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupBoxIgnore.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupBoxIgnore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 224</value>
+  </data>
+  <data name="btn_win_server_testAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>548, 106</value>
+  </data>
+  <data name="btn_win_server_testAll.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_win_server_testAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 38</value>
+  </data>
   <data name="btn_win_server_testAll.Text" xml:space="preserve">
     <value>测试连接全部</value>
+  </data>
+  <data name="txt_winserver_nickname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>548, 19</value>
+  </data>
+  <data name="txt_winserver_nickname.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_winserver_nickname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 25</value>
+  </data>
+  <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 99</value>
+  </data>
+  <data name="label32.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 15</value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>472, 28</value>
+  </data>
+  <data name="label29.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 15</value>
+  </data>
+  <data name="loading_win_server_test.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 8</value>
+  </data>
+  <data name="loading_win_server_test.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="loading_win_server_test.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 125</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 122</value>
+  </data>
+  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 15</value>
+  </data>
+  <data name="b_env_server_test.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 66</value>
+  </data>
+  <data name="b_env_server_test.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="b_env_server_test.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 29</value>
+  </data>
+  <data name="combo_env_server_list.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 119</value>
+  </data>
+  <data name="combo_env_server_list.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="combo_env_server_list.Size" type="System.Drawing.Size, System.Drawing">
+    <value>399, 23</value>
+  </data>
+  <data name="b_env_server_add.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 66</value>
+  </data>
+  <data name="b_env_server_add.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="b_env_server_add.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 29</value>
+  </data>
+  <data name="txt_env_server_host.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 20</value>
+  </data>
+  <data name="txt_env_server_host.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_env_server_host.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 25</value>
+  </data>
+  <data name="b_env_server_remove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>518, 66</value>
+  </data>
+  <data name="b_env_server_remove.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="b_env_server_remove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 29</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 31</value>
+  </data>
+  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 15</value>
+  </data>
+  <data name="txt_env_server_token.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 20</value>
+  </data>
+  <data name="txt_env_server_token.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_env_server_token.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 25</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 28</value>
+  </data>
+  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 15</value>
+  </data>
+  <data name="page_winserver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="page_winserver.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="page_winserver.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="page_winserver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>722, 155</value>
   </data>
   <data name="page_winserver.Text" xml:space="preserve">
     <value>Token服务器</value>
   </data>
+  <data name="btn_linux_server_testAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>552, 106</value>
+  </data>
+  <data name="btn_linux_server_testAll.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_linux_server_testAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 38</value>
+  </data>
   <data name="btn_linux_server_testAll.Text" xml:space="preserve">
     <value>测试连接全部</value>
   </data>
+  <data name="txt_linux_server_nickname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>599, 10</value>
+  </data>
+  <data name="txt_linux_server_nickname.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_linux_server_nickname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 25</value>
+  </data>
+  <data name="loading_linux_server_test.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 14</value>
+  </data>
+  <data name="loading_linux_server_test.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="loading_linux_server_test.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 125</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 122</value>
+  </data>
+  <data name="label20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 15</value>
+  </data>
+  <data name="combo_linux_server_list.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 119</value>
+  </data>
+  <data name="combo_linux_server_list.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="combo_linux_server_list.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 23</value>
+  </data>
+  <data name="txt_linux_pwd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 12</value>
+  </data>
+  <data name="txt_linux_pwd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_linux_pwd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 25</value>
+  </data>
+  <data name="txt_linux_username.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 14</value>
+  </data>
+  <data name="txt_linux_username.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_linux_username.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 25</value>
+  </data>
+  <data name="b_linux_server_test.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 61</value>
+  </data>
+  <data name="b_linux_server_test.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="b_linux_server_test.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 29</value>
+  </data>
+  <data name="b_add_linux_server.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 61</value>
+  </data>
+  <data name="b_add_linux_server.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="b_add_linux_server.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 29</value>
+  </data>
+  <data name="b_linux_server_remove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>522, 61</value>
+  </data>
+  <data name="b_linux_server_remove.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="b_linux_server_remove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 29</value>
+  </data>
+  <data name="txt_linux_host.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 15</value>
+  </data>
+  <data name="txt_linux_host.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_linux_host.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 25</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 24</value>
+  </data>
+  <data name="label17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 15</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 21</value>
+  </data>
+  <data name="label18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 15</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 21</value>
+  </data>
+  <data name="label19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 15</value>
+  </data>
+  <data name="label35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>526, 21</value>
+  </data>
+  <data name="label35.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 15</value>
+  </data>
+  <data name="page_linux_server.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="page_linux_server.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="page_linux_server.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="page_linux_server.Size" type="System.Drawing.Size, System.Drawing">
+    <value>722, 155</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 110</value>
+  </data>
+  <data name="tabControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>730, 184</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 36</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 15</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 80</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 15</value>
+  </data>
+  <data name="b_env_remove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>476, 74</value>
+  </data>
+  <data name="b_env_remove.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="b_env_remove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 29</value>
+  </data>
+  <data name="txt_env_name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 25</value>
+  </data>
+  <data name="txt_env_name.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_env_name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 25</value>
+  </data>
+  <data name="b_env_add_by_name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 22</value>
+  </data>
+  <data name="b_env_add_by_name.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="b_env_add_by_name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 29</value>
+  </data>
+  <data name="combo_env_list.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 76</value>
+  </data>
+  <data name="combo_env_list.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="combo_env_list.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 23</value>
+  </data>
+  <data name="environment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 21</value>
+  </data>
+  <data name="environment.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="environment.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="environment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>749, 308</value>
+  </data>
+  <data name="page_set.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="page_set.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="page_set.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="page_set.Size" type="System.Drawing.Size, System.Drawing">
+    <value>780, 573</value>
+  </data>
   <data name="label52.Location" type="System.Drawing.Point, System.Drawing">
-    <value>415, 287</value>
+    <value>519, 359</value>
+  </data>
+  <data name="label52.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 15</value>
+  </data>
+  <data name="chk_global_useCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 380</value>
+  </data>
+  <data name="chk_global_useCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="chk_global_useCheckBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 16</value>
+    <value>224, 19</value>
   </data>
   <data name="chk_global_useCheckBox.Text" xml:space="preserve">
     <value>开启环境下服务器可分组功能</value>
   </data>
   <data name="checkBox_multi_deploy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>409, 37</value>
+    <value>511, 46</value>
+  </data>
+  <data name="checkBox_multi_deploy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="checkBox_multi_deploy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 16</value>
+    <value>240, 19</value>
   </data>
   <data name="checkBox_multi_deploy.Text" xml:space="preserve">
     <value>Vs里可以同时打开多个发布窗口</value>
   </data>
   <data name="checkBox_save_deploy_log.Location" type="System.Drawing.Point, System.Drawing">
-    <value>217, 37</value>
+    <value>271, 46</value>
+  </data>
+  <data name="checkBox_save_deploy_log.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="checkBox_save_deploy_log.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 16</value>
+    <value>164, 19</value>
   </data>
   <data name="checkBox_save_deploy_log.Text" xml:space="preserve">
     <value>保存发布日志到本地</value>
   </data>
+  <data name="label33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 425</value>
+  </data>
+  <data name="label33.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 15</value>
+  </data>
+  <data name="txt_http_proxy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 421</value>
+  </data>
+  <data name="txt_http_proxy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_http_proxy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 25</value>
+  </data>
   <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
-    <value>73, 340</value>
+    <value>91, 425</value>
+  </data>
+  <data name="label30.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 12</value>
+    <value>107, 15</value>
   </data>
   <data name="label30.Text" xml:space="preserve">
     <value>Http代理配置:</value>
   </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 152</value>
+  </data>
+  <data name="label16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 41</value>
+  </data>
   <data name="label16.Text" xml:space="preserve">
     <value>如果选择了指定特定文件夹,会过滤编译步骤！</value>
+  </data>
+  <data name="btn_folder_clear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>654, 129</value>
+  </data>
+  <data name="btn_folder_clear.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_folder_clear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 25</value>
   </data>
   <data name="btn_folder_clear.Text" xml:space="preserve">
     <value>清除</value>
   </data>
+  <data name="btn_choose_folder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>654, 94</value>
+  </data>
+  <data name="btn_choose_folder.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_choose_folder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 31</value>
+  </data>
   <data name="btn_choose_folder.Text" xml:space="preserve">
     <value>选择</value>
   </data>
+  <data name="txt_folder_deploy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 92</value>
+  </data>
+  <data name="txt_folder_deploy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_folder_deploy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>435, 55</value>
+  </data>
   <data name="label42.Location" type="System.Drawing.Point, System.Drawing">
-    <value>440, 256</value>
+    <value>550, 320</value>
+  </data>
+  <data name="label42.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 15</value>
   </data>
   <data name="label41.Location" type="System.Drawing.Point, System.Drawing">
-    <value>416, 272</value>
+    <value>520, 340</value>
+  </data>
+  <data name="label41.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>253, 15</value>
+  </data>
+  <data name="label39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 334</value>
+  </data>
+  <data name="label39.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 15</value>
   </data>
   <data name="label38.Location" type="System.Drawing.Point, System.Drawing">
-    <value>333, 237</value>
+    <value>416, 296</value>
+  </data>
+  <data name="label38.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label38.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 12</value>
+    <value>374, 15</value>
   </data>
   <data name="label38.Text" xml:space="preserve">
     <value>NetCore发布模式如果没有设置采用以下默认值:      </value>
   </data>
   <data name="combo_netcore_publish_mode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>168, 234</value>
+    <value>210, 292</value>
+  </data>
+  <data name="combo_netcore_publish_mode.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="combo_netcore_publish_mode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 23</value>
+  </data>
+  <data name="label37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 296</value>
+  </data>
+  <data name="label37.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label37.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 12</value>
+    <value>139, 15</value>
   </data>
   <data name="label37.Text" xml:space="preserve">
     <value>NetCore 发布模式:</value>
   </data>
   <data name="label_without_vs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>362, 9</value>
+    <value>452, 11</value>
+  </data>
+  <data name="label_without_vs.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label_without_vs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>318, 15</value>
+  </data>
+  <data name="checkBox_Chinese.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 46</value>
+  </data>
+  <data name="checkBox_Chinese.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="checkBox_Chinese.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 19</value>
   </data>
   <data name="btn_choose_msbuild.Location" type="System.Drawing.Point, System.Drawing">
-    <value>523, 167</value>
+    <value>654, 209</value>
+  </data>
+  <data name="btn_choose_msbuild.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_choose_msbuild.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 34</value>
   </data>
   <data name="label36.Location" type="System.Drawing.Point, System.Drawing">
-    <value>49, 174</value>
+    <value>61, 218</value>
+  </data>
+  <data name="label36.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 15</value>
   </data>
   <data name="txt_msbuild_path.Location" type="System.Drawing.Point, System.Drawing">
-    <value>168, 160</value>
+    <value>210, 200</value>
+  </data>
+  <data name="txt_msbuild_path.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="txt_msbuild_path.Size" type="System.Drawing.Size, System.Drawing">
+    <value>435, 53</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 110</value>
+  </data>
+  <data name="label15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 15</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
     <value>指定特定文件夹发布：</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Inherit</value>
+  <data name="btn_shang.Location" type="System.Drawing.Point, System.Drawing">
+    <value>519, 499</value>
+  </data>
+  <data name="btn_shang.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_shang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 50</value>
+  </data>
+  <data name="pag_advance_setting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="pag_advance_setting.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="pag_advance_setting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>780, 573</value>
+  </data>
+  <data name="tabcontrol.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tabcontrol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>788, 602</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>120, 120</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>788, 602</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
 </root>
