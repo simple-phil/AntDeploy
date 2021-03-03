@@ -6129,13 +6129,18 @@ namespace AntDeployWinform.Winform
             var newProName = projectName.ToLower();
 
             if (newProName.Contains('.'))
-                newProName = $"{newProName.Replace('.', '-')}:1.0.0";
+                newProName = $"{newProName.Replace('.', '-')}";
             else
             {
-                newProName = $"{newProName}:1.0.0";
+                newProName = $"{newProName}";
             }
 
-            return newProName;
+            var tag = HttpUtilHelper.GetProjectImagesTag(DeployConfig.DockerRegisterConfig.RepositoryNameSpace, newProName, DeployConfig.DockerRegisterConfig.RepositoryUrl);
+
+            if (tag == null)
+                return newProName + ":1.0.0";
+
+            return $"{newProName}:{tag}";
         }
 
         private void ReadPluginConfig(string pluginConfigPath, string projectPath = "", string projectName = "")
@@ -6161,6 +6166,10 @@ namespace AntDeployWinform.Winform
 
                         if (string.IsNullOrEmpty(PluginConfig.RepositoryImageName))
                             PluginConfig.RepositoryImageName = BuildCustomerImageName(projectName);
+                        else
+                        {
+                            PluginConfig.RepositoryImageName = BuildCustomerImageName(projectName);
+                        }
 
                     }
                     catch (Exception)
@@ -6195,6 +6204,10 @@ namespace AntDeployWinform.Winform
                 };
                 if (string.IsNullOrEmpty(PluginConfig.RepositoryImageName))
                     PluginConfig.RepositoryImageName = BuildCustomerImageName(projectName);
+                else
+                {
+                    PluginConfig.RepositoryImageName = BuildCustomerImageName(projectName);
+                }
             }
         }
         private void ReadConfig(string projectPath)
@@ -6727,10 +6740,10 @@ namespace AntDeployWinform.Winform
                        PackageError(this.tabPage_docker, serverList.First().Host);
                        return;
                    }
-//#if DEBUG
-//                   using (FileStream file = new FileStream("package.zip", FileMode.Create, System.IO.FileAccess.Write))
-//                       zipBytes.CopyTo(file);
-//#endif
+                   //#if DEBUG
+                   //                   using (FileStream file = new FileStream("package.zip", FileMode.Create, System.IO.FileAccess.Write))
+                   //                       zipBytes.CopyTo(file);
+                   //#endif
                    var packageSize = (zipBytes.Length / 1024 / 1024);
                    this.nlog_docker.Info($"package success,package size:{(packageSize > 0 ? (packageSize + "") : "<1")}M");
                    //执行 上传
