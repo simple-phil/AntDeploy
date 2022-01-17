@@ -115,7 +115,7 @@ namespace AntDeployWinform.Winform
             this.txt_linuxservice_name.DataBindings.Add("Text", this, "BindLinuxServiceName", false, DataSourceUpdateMode.OnPropertyChanged);
             this.txt_linux_service_env.DataBindings.Add("Text", this, "BindLinuxEnvName", false, DataSourceUpdateMode.OnPropertyChanged);
 
-            notificationService.Init("AntDeploy");
+            //notificationService.Init("AntDeploy");
         }
         public string BindDockerVolume
         {
