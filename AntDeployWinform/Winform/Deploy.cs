@@ -758,8 +758,8 @@ namespace AntDeployWinform.Winform
             this.txt_folder_deploy.Text = PluginConfig.DeployFolderPath;
             this.txt_http_proxy.Text = PluginConfig.DeployHttpProxy;
 
-            this.checkBoxdocker_rep_enable.Checked = PluginConfig.DockerServiceEnableUpload;
-            this.checkBoxdocker_rep_uploadOnly.Checked = PluginConfig.DockerServiceBuildImageOnly;
+            this.checkBoxdocker_rep_enable.Checked = true;//PluginConfig.DockerServiceEnableUpload;
+            this.checkBoxdocker_rep_uploadOnly.Checked = true;//PluginConfig.DockerServiceBuildImageOnly;
             this.txt_docker_rep_domain.Text = PluginConfig.RepositoryUrl;
             this.txt_docker_rep_name.Text = PluginConfig.RepositoryUserName;
             this.txt_docker_rep_pwd.Text = PluginConfig.RepositoryUserPwd;

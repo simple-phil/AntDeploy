@@ -762,6 +762,8 @@
             // checkBoxdocker_rep_uploadOnly
             // 
             resources.ApplyResources(this.checkBoxdocker_rep_uploadOnly, "checkBoxdocker_rep_uploadOnly");
+            this.checkBoxdocker_rep_uploadOnly.Checked = true;
+            this.checkBoxdocker_rep_uploadOnly.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxdocker_rep_uploadOnly.Name = "checkBoxdocker_rep_uploadOnly";
             this.checkBoxdocker_rep_uploadOnly.UseVisualStyleBackColor = true;
             this.checkBoxdocker_rep_uploadOnly.Click += new System.EventHandler(this.checkBoxdocker_rep_uploadOnly_Click);
@@ -769,6 +771,8 @@
             // checkBoxdocker_rep_enable
             // 
             resources.ApplyResources(this.checkBoxdocker_rep_enable, "checkBoxdocker_rep_enable");
+            this.checkBoxdocker_rep_enable.Checked = true;
+            this.checkBoxdocker_rep_enable.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBoxdocker_rep_enable.Name = "checkBoxdocker_rep_enable";
             this.checkBoxdocker_rep_enable.UseVisualStyleBackColor = true;
             this.checkBoxdocker_rep_enable.Click += new System.EventHandler(this.checkBoxdocker_rep_enable_Click);

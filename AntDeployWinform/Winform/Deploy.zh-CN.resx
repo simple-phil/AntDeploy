@@ -312,7 +312,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="rich_iis_log.Size" type="System.Drawing.Size, System.Drawing">
-    <value>754, 361</value>
+    <value>756, 361</value>
   </data>
   <data name="tabPage_iis_log.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 25</value>
@@ -324,7 +324,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="tabPage_iis_log.Size" type="System.Drawing.Size, System.Drawing">
-    <value>762, 369</value>
+    <value>764, 369</value>
   </data>
   <data name="tab_iis.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 171</value>
@@ -610,7 +610,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="rich_docker_log.Size" type="System.Drawing.Size, System.Drawing">
-    <value>762, 328</value>
+    <value>764, 328</value>
   </data>
   <data name="tabPage_docker_log.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 25</value>
@@ -622,7 +622,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="tabPage_docker_log.Size" type="System.Drawing.Size, System.Drawing">
-    <value>770, 336</value>
+    <value>772, 336</value>
   </data>
   <data name="label54.Location" type="System.Drawing.Point, System.Drawing">
     <value>271, 245</value>
@@ -970,7 +970,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="rich_windowservice_log.Size" type="System.Drawing.Size, System.Drawing">
-    <value>762, 374</value>
+    <value>764, 374</value>
   </data>
   <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 25</value>
@@ -982,7 +982,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>770, 382</value>
+    <value>772, 382</value>
   </data>
   <data name="tabControl_window_service.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 162</value>
@@ -1114,7 +1114,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="rich_linuxservice_log.Size" type="System.Drawing.Size, System.Drawing">
-    <value>762, 374</value>
+    <value>764, 374</value>
   </data>
   <data name="tabPage3.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 25</value>
@@ -1126,7 +1126,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>770, 382</value>
+    <value>772, 382</value>
   </data>
   <data name="tabPage3.Text" xml:space="preserve">
     <value>发布日志</value>
@@ -2055,7 +2055,7 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>788, 602</value>
   </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
 </root>

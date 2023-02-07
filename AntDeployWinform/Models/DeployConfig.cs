@@ -36,8 +36,8 @@ namespace AntDeployWinform.Models
         public bool DockerServiceEnableSelectDeploy { get; set; }
 
         #region 镜像上传
-        public bool DockerServiceEnableUpload { get; set; }
-        public bool DockerServiceBuildImageOnly { get; set; }
+        public bool DockerServiceEnableUpload { get; set; } = true;
+        public bool DockerServiceBuildImageOnly { get; set; } = true;
         public string RepositoryUrl { get; set; }
         public string RepositoryUserName { get; set; }
         public string RepositoryUserPwd { get; set; }
